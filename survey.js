@@ -39,7 +39,7 @@ rl.question(`${askMe.name} `, (answer) => {
             answers.favouriteSport = answer;
             rl.question(`${askMe.superpower} `, (answer) => {
               answers.superpower = answer;
-              const profile = `My name is ${answers.name}. I like ${answers.hobby}. I enjoy listening to ${answers.favouriteMusic} while ${answers.hobby}. My favourite meal is ${answers.favouriteMeal} and I usually eat ${answers.favouriteFood}. I am a die hard fun of ${answers.favouriteSport}. I am amazing at ${answers.superpower}.`;
+              const profile = ` My name is ${answers.name}. I like ${answers.hobby}.\n I enjoy listening to ${answers.favouriteMusic} while ${answers.hobby}.\n My favourite meal is ${answers.favouriteMeal} and I usually eat ${answers.favouriteFood}.\n I am a die hard fun of ${answers.favouriteSport}.\n I am amazing at ${answers.superpower}.`;
               console.log("...........................");
               console.log(profile);
               rl.close();
